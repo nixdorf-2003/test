@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class SkypeService implements Runnable {
+public class SkypeService implements Runnabled {
 
     public static final int SERVICE_PORT = 9000;
     private final Socket mSocket;
